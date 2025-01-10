@@ -27,7 +27,7 @@ export const COMPANY_DATA = [
   },
   {
     key: "従業員数",
-    value: "5名",
+    value: "3名",
   },
   {
     key: "事業内容",
