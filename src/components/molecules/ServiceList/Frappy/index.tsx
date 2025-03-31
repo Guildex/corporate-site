@@ -18,9 +18,9 @@ const _Frappy = () => {
         </Styled.TextBox>
       </Styled.Detail>
       <Styled.LinkBox>
-        <Styled.AnchorLink href={FRAPPY_URL} target="_blank" rel="noopener noreferrer">
-          詳しくはこちら
-        </Styled.AnchorLink>
+        <Styled.Link as="button" isDisabled>
+          このサービスは終了しました
+        </Styled.Link>
       </Styled.LinkBox>
     </Styled.Service>
   );
