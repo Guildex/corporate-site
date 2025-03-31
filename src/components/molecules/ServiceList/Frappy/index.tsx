@@ -1,7 +1,6 @@
 import { memo } from "react";
 import * as Styled from "../styles";
 
-const FRAPPY_URL = "https://frappy.app/";
 const SERVICE_DESCRIPTION =
   "Frappy(フラッピー)は金曜日の0:00から渋谷エリアで始まる48時間限定の恋活・婚活マッチングアプリです。\n48時間限定のプレッシャーが、最速で意味のある会話と速やかな出会いへと導き「マッチングアプリにおける決定疲れ」を解決することを目的としているサービスです。";
 
@@ -18,9 +17,9 @@ const _Frappy = () => {
         </Styled.TextBox>
       </Styled.Detail>
       <Styled.LinkBox>
-        <Styled.AnchorLink href={FRAPPY_URL} target="_blank" rel="noopener noreferrer">
-          詳しくはこちら
-        </Styled.AnchorLink>
+        <Styled.Link as="button" isDisabled>
+          このサービスは終了しました
+        </Styled.Link>
       </Styled.LinkBox>
     </Styled.Service>
   );
